@@ -372,3 +372,15 @@ html {
     scale: 2;
   }
 } */
+
+  body {
+    /* Set initial scale to 0.1 */
+    transform: scale(0.1);
+    transform-origin: center top;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  /* After the page has loaded, revert to normal scale */
+  body.loaded {
+    transform: scale(1);
+  }
