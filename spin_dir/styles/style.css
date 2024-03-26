@@ -6,7 +6,10 @@ html {
   display: block;
   overflow: hidden;
   font-family: Quicksand;
-  background: #15377a;
+  background: rgb(0, 51, 101);
+}
+.fas{
+  color: rgb(238, 35, 71);
 }
 
 .has-content-centered {
@@ -45,7 +48,7 @@ html {
 .title.is-strong,
 .subtitle.is-strong {
   font-weight: 700;
-  color: #b9e9c4;
+  color: rgb(176, 235, 195);
 }
 
 .circle-graphic {
@@ -162,7 +165,7 @@ html {
   height: 12em;
   border-radius: 50%;
   position: relative;
-  border: solid 3px #b9e9c4;
+  border: solid 3px rgb(176, 235, 195);
   background: #15377a;
 }
 .circle.is-main {
@@ -195,7 +198,7 @@ html {
   margin-top: -1em;
 }
 .circle.is-main:hover {
-  background-color: #b9e9c4;
+  background-color: rgb(176, 235, 195);
   /* border-color: #ffffff; */
 }
 .circle.is-main:hover .title,
@@ -217,7 +220,7 @@ html {
   animation: spin 192s linear infinite reverse;
 }
 .pause .circle.is-third {
-  border-color: #880621;
+  border-color: rgb(238, 35, 71);
 }
 
 .leaf {
@@ -240,7 +243,7 @@ html {
   position: absolute;
   width: 48em;
   height: 24em;
-  border: solid 2px #b9e9c4;
+  border: solid 2px rgb(176, 235, 195);
   opacity: 0.25;
 }
 .ellipses .ellipsis:nth-child(1) {
@@ -269,14 +272,14 @@ html {
 }
 .ellipses .circle.is-cover {
   position: absolute;
-  background: rgba(244, 28, 28, 0.518);
+  background: rgb(238, 35, 71);
   border: none;
   width: 42em;
   height: 42em;
 }
 
 .modal .modal-card-head {
-  background: #b9e9c4;
+  background: rgb(176, 235, 195);
   border: none;
   text-transform: uppercase;
 }
@@ -303,7 +306,7 @@ html {
   border-bottom: solid 4px #88062062;
 }
 .modal .modal-card-foot button {
-  background: #b9e9c4;
+  background: rgb(176, 235, 195);
   color: #ffffff;
   border: none;
   width: 2.5em;
@@ -360,8 +363,6 @@ html {
     font-size: 34px;
   }
 }
-
-
 
 /* 
 @media screen and (max-width: 400px) {
