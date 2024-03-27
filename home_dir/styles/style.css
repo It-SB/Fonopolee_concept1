@@ -744,13 +744,14 @@ img {
   }
 }
 
-@media screen and (min-width: 800px and max-width: 1023px) {
+@media screen and (min-width: 800px) and (max-width: 1023px) {
   .brand__description {
     position: relative;
     left: 25rem;
     width: 20em;
   }
 }
+
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
